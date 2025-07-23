@@ -1,0 +1,2504 @@
+{
+  "summary": {
+    "total_products": 306,
+    "processing_time_seconds": 1.54,
+    "success_rate": 1,
+    "sources": [
+      "dummyjson",
+      "reqres",
+      "jsonplaceholder"
+    ]
+  },
+  "products": [
+    {
+      "id": "41",
+      "title": "Tissue Paper Box",
+      "source": "dummyjson",
+      "price": 2.49,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.386825+00:00Z"
+    },
+    {
+      "id": "42",
+      "title": "Water",
+      "source": "dummyjson",
+      "price": 0.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.386893+00:00Z"
+    },
+    {
+      "id": "43",
+      "title": "Decoration Swing",
+      "source": "dummyjson",
+      "price": 59.99,
+      "category": "home-decoration",
+      "processed_at": "2025-07-22T23:27:32.386906+00:00Z"
+    },
+    {
+      "id": "44",
+      "title": "Family Tree Photo Frame",
+      "source": "dummyjson",
+      "price": 29.99,
+      "category": "home-decoration",
+      "processed_at": "2025-07-22T23:27:32.386914+00:00Z"
+    },
+    {
+      "id": "45",
+      "title": "House Showpiece Plant",
+      "source": "dummyjson",
+      "price": 39.99,
+      "category": "home-decoration",
+      "processed_at": "2025-07-22T23:27:32.386922+00:00Z"
+    },
+    {
+      "id": "46",
+      "title": "Plant Pot",
+      "source": "dummyjson",
+      "price": 14.99,
+      "category": "home-decoration",
+      "processed_at": "2025-07-22T23:27:32.386930+00:00Z"
+    },
+    {
+      "id": "47",
+      "title": "Table Lamp",
+      "source": "dummyjson",
+      "price": 49.99,
+      "category": "home-decoration",
+      "processed_at": "2025-07-22T23:27:32.386937+00:00Z"
+    },
+    {
+      "id": "48",
+      "title": "Bamboo Spatula",
+      "source": "dummyjson",
+      "price": 7.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.386943+00:00Z"
+    },
+    {
+      "id": "49",
+      "title": "Black Aluminium Cup",
+      "source": "dummyjson",
+      "price": 5.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.386950+00:00Z"
+    },
+    {
+      "id": "50",
+      "title": "Black Whisk",
+      "source": "dummyjson",
+      "price": 9.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.386957+00:00Z"
+    },
+    {
+      "id": "51",
+      "title": "Boxed Blender",
+      "source": "dummyjson",
+      "price": 39.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.386964+00:00Z"
+    },
+    {
+      "id": "52",
+      "title": "Carbon Steel Wok",
+      "source": "dummyjson",
+      "price": 29.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.386971+00:00Z"
+    },
+    {
+      "id": "53",
+      "title": "Chopping Board",
+      "source": "dummyjson",
+      "price": 12.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.386978+00:00Z"
+    },
+    {
+      "id": "54",
+      "title": "Citrus Squeezer Yellow",
+      "source": "dummyjson",
+      "price": 8.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.386986+00:00Z"
+    },
+    {
+      "id": "55",
+      "title": "Egg Slicer",
+      "source": "dummyjson",
+      "price": 6.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.386993+00:00Z"
+    },
+    {
+      "id": "56",
+      "title": "Electric Stove",
+      "source": "dummyjson",
+      "price": 49.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.387000+00:00Z"
+    },
+    {
+      "id": "57",
+      "title": "Fine Mesh Strainer",
+      "source": "dummyjson",
+      "price": 9.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.387006+00:00Z"
+    },
+    {
+      "id": "58",
+      "title": "Fork",
+      "source": "dummyjson",
+      "price": 3.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.387013+00:00Z"
+    },
+    {
+      "id": "59",
+      "title": "Glass",
+      "source": "dummyjson",
+      "price": 4.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.387020+00:00Z"
+    },
+    {
+      "id": "60",
+      "title": "Grater Black",
+      "source": "dummyjson",
+      "price": 10.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.387026+00:00Z"
+    },
+    {
+      "id": "1",
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387338+00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "qui est esse",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387365+00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387374+00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "eum et est occaecati",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387380+00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "nesciunt quas odio",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387385+00:00Z"
+    },
+    {
+      "id": "6",
+      "title": "dolorem eum magni eos aperiam quia",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387391+00:00Z"
+    },
+    {
+      "id": "7",
+      "title": "magnam facilis autem",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387397+00:00Z"
+    },
+    {
+      "id": "8",
+      "title": "dolorem dolore est ipsam",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387402+00:00Z"
+    },
+    {
+      "id": "9",
+      "title": "nesciunt iure omnis dolorem tempora et accusantium",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387408+00:00Z"
+    },
+    {
+      "id": "10",
+      "title": "optio molestias id quia eum",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387414+00:00Z"
+    },
+    {
+      "id": "11",
+      "title": "et ea vero quia laudantium autem",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387423+00:00Z"
+    },
+    {
+      "id": "12",
+      "title": "in quibusdam tempore odit est dolorem",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387430+00:00Z"
+    },
+    {
+      "id": "13",
+      "title": "dolorum ut in voluptas mollitia et saepe quo animi",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387436+00:00Z"
+    },
+    {
+      "id": "14",
+      "title": "voluptatem eligendi optio",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387441+00:00Z"
+    },
+    {
+      "id": "15",
+      "title": "eveniet quod temporibus",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387447+00:00Z"
+    },
+    {
+      "id": "16",
+      "title": "sint suscipit perspiciatis velit dolorum rerum ipsa laboriosam odio",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387452+00:00Z"
+    },
+    {
+      "id": "17",
+      "title": "fugit voluptas sed molestias voluptatem provident",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387457+00:00Z"
+    },
+    {
+      "id": "18",
+      "title": "voluptate et itaque vero tempora molestiae",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387463+00:00Z"
+    },
+    {
+      "id": "19",
+      "title": "adipisci placeat illum aut reiciendis qui",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387468+00:00Z"
+    },
+    {
+      "id": "20",
+      "title": "doloribus ad provident suscipit at",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387474+00:00Z"
+    },
+    {
+      "id": "21",
+      "title": "asperiores ea ipsam voluptatibus modi minima quia sint",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387479+00:00Z"
+    },
+    {
+      "id": "22",
+      "title": "dolor sint quo a velit explicabo quia nam",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387485+00:00Z"
+    },
+    {
+      "id": "23",
+      "title": "maxime id vitae nihil numquam",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387490+00:00Z"
+    },
+    {
+      "id": "24",
+      "title": "autem hic labore sunt dolores incidunt",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387495+00:00Z"
+    },
+    {
+      "id": "25",
+      "title": "rem alias distinctio quo quis",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387501+00:00Z"
+    },
+    {
+      "id": "26",
+      "title": "est et quae odit qui non",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387506+00:00Z"
+    },
+    {
+      "id": "27",
+      "title": "quasi id et eos tenetur aut quo autem",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387512+00:00Z"
+    },
+    {
+      "id": "28",
+      "title": "delectus ullam et corporis nulla voluptas sequi",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387517+00:00Z"
+    },
+    {
+      "id": "29",
+      "title": "iusto eius quod necessitatibus culpa ea",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387523+00:00Z"
+    },
+    {
+      "id": "30",
+      "title": "a quo magni similique perferendis",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387528+00:00Z"
+    },
+    {
+      "id": "31",
+      "title": "ullam ut quidem id aut vel consequuntur",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387540+00:00Z"
+    },
+    {
+      "id": "32",
+      "title": "doloremque illum aliquid sunt",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387545+00:00Z"
+    },
+    {
+      "id": "33",
+      "title": "qui explicabo molestiae dolorem",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387551+00:00Z"
+    },
+    {
+      "id": "34",
+      "title": "magnam ut rerum iure",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387557+00:00Z"
+    },
+    {
+      "id": "35",
+      "title": "id nihil consequatur molestias animi provident",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387563+00:00Z"
+    },
+    {
+      "id": "36",
+      "title": "fuga nam accusamus voluptas reiciendis itaque",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387569+00:00Z"
+    },
+    {
+      "id": "37",
+      "title": "provident vel ut sit ratione est",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387575+00:00Z"
+    },
+    {
+      "id": "38",
+      "title": "explicabo et eos deleniti nostrum ab id repellendus",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387581+00:00Z"
+    },
+    {
+      "id": "39",
+      "title": "eos dolorem iste accusantium est eaque quam",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387587+00:00Z"
+    },
+    {
+      "id": "40",
+      "title": "enim quo cumque",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387593+00:00Z"
+    },
+    {
+      "id": "41",
+      "title": "non est facere",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387602+00:00Z"
+    },
+    {
+      "id": "42",
+      "title": "commodi ullam sint et excepturi error explicabo praesentium voluptas",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387612+00:00Z"
+    },
+    {
+      "id": "43",
+      "title": "eligendi iste nostrum consequuntur adipisci praesentium sit beatae perferendis",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387618+00:00Z"
+    },
+    {
+      "id": "44",
+      "title": "optio dolor molestias sit",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387624+00:00Z"
+    },
+    {
+      "id": "45",
+      "title": "ut numquam possimus omnis eius suscipit laudantium iure",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387629+00:00Z"
+    },
+    {
+      "id": "46",
+      "title": "aut quo modi neque nostrum ducimus",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387636+00:00Z"
+    },
+    {
+      "id": "47",
+      "title": "quibusdam cumque rem aut deserunt",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387641+00:00Z"
+    },
+    {
+      "id": "48",
+      "title": "ut voluptatem illum ea doloribus itaque eos",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387669+00:00Z"
+    },
+    {
+      "id": "49",
+      "title": "laborum non sunt aut ut assumenda perspiciatis voluptas",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387676+00:00Z"
+    },
+    {
+      "id": "50",
+      "title": "repellendus qui recusandae incidunt voluptates tenetur qui omnis exercitationem",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387683+00:00Z"
+    },
+    {
+      "id": "51",
+      "title": "soluta aliquam aperiam consequatur illo quis voluptas",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387689+00:00Z"
+    },
+    {
+      "id": "52",
+      "title": "qui enim et consequuntur quia animi quis voluptate quibusdam",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387694+00:00Z"
+    },
+    {
+      "id": "53",
+      "title": "ut quo aut ducimus alias",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387699+00:00Z"
+    },
+    {
+      "id": "54",
+      "title": "sit asperiores ipsam eveniet odio non quia",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387705+00:00Z"
+    },
+    {
+      "id": "55",
+      "title": "sit vel voluptatem et non libero",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387711+00:00Z"
+    },
+    {
+      "id": "56",
+      "title": "qui et at rerum necessitatibus",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387717+00:00Z"
+    },
+    {
+      "id": "57",
+      "title": "sed ab est est",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387723+00:00Z"
+    },
+    {
+      "id": "58",
+      "title": "voluptatum itaque dolores nisi et quasi",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387730+00:00Z"
+    },
+    {
+      "id": "59",
+      "title": "qui commodi dolor at maiores et quis id accusantium",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387736+00:00Z"
+    },
+    {
+      "id": "60",
+      "title": "consequatur placeat omnis quisquam quia reprehenderit fugit veritatis facere",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387741+00:00Z"
+    },
+    {
+      "id": "61",
+      "title": "voluptatem doloribus consectetur est ut ducimus",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387747+00:00Z"
+    },
+    {
+      "id": "62",
+      "title": "beatae enim quia vel",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387752+00:00Z"
+    },
+    {
+      "id": "63",
+      "title": "voluptas blanditiis repellendus animi ducimus error sapiente et suscipit",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387758+00:00Z"
+    },
+    {
+      "id": "64",
+      "title": "et fugit quas eum in in aperiam quod",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387764+00:00Z"
+    },
+    {
+      "id": "65",
+      "title": "consequatur id enim sunt et et",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387770+00:00Z"
+    },
+    {
+      "id": "66",
+      "title": "repudiandae ea animi iusto",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387776+00:00Z"
+    },
+    {
+      "id": "67",
+      "title": "aliquid eos sed fuga est maxime repellendus",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387781+00:00Z"
+    },
+    {
+      "id": "68",
+      "title": "odio quis facere architecto reiciendis optio",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387787+00:00Z"
+    },
+    {
+      "id": "69",
+      "title": "fugiat quod pariatur odit minima",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387793+00:00Z"
+    },
+    {
+      "id": "70",
+      "title": "voluptatem laborum magni",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387799+00:00Z"
+    },
+    {
+      "id": "71",
+      "title": "et iusto veniam et illum aut fuga",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387805+00:00Z"
+    },
+    {
+      "id": "72",
+      "title": "sint hic doloribus consequatur eos non id",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387811+00:00Z"
+    },
+    {
+      "id": "73",
+      "title": "consequuntur deleniti eos quia temporibus ab aliquid at",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387824+00:00Z"
+    },
+    {
+      "id": "74",
+      "title": "enim unde ratione doloribus quas enim ut sit sapiente",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387830+00:00Z"
+    },
+    {
+      "id": "75",
+      "title": "dignissimos eum dolor ut enim et delectus in",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387836+00:00Z"
+    },
+    {
+      "id": "76",
+      "title": "doloremque officiis ad et non perferendis",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387841+00:00Z"
+    },
+    {
+      "id": "77",
+      "title": "necessitatibus quasi exercitationem odio",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387847+00:00Z"
+    },
+    {
+      "id": "78",
+      "title": "quam voluptatibus rerum veritatis",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387853+00:00Z"
+    },
+    {
+      "id": "79",
+      "title": "pariatur consequatur quia magnam autem omnis non amet",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387860+00:00Z"
+    },
+    {
+      "id": "80",
+      "title": "labore in ex et explicabo corporis aut quas",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387866+00:00Z"
+    },
+    {
+      "id": "81",
+      "title": "tempora rem veritatis voluptas quo dolores vero",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387872+00:00Z"
+    },
+    {
+      "id": "82",
+      "title": "laudantium voluptate suscipit sunt enim enim",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387877+00:00Z"
+    },
+    {
+      "id": "83",
+      "title": "odit et voluptates doloribus alias odio et",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387883+00:00Z"
+    },
+    {
+      "id": "84",
+      "title": "optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387889+00:00Z"
+    },
+    {
+      "id": "85",
+      "title": "dolore veritatis porro provident adipisci blanditiis et sunt",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387896+00:00Z"
+    },
+    {
+      "id": "86",
+      "title": "placeat quia et porro iste",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387902+00:00Z"
+    },
+    {
+      "id": "87",
+      "title": "nostrum quis quasi placeat",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387907+00:00Z"
+    },
+    {
+      "id": "88",
+      "title": "sapiente omnis fugit eos",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387912+00:00Z"
+    },
+    {
+      "id": "89",
+      "title": "sint soluta et vel magnam aut ut sed qui",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387917+00:00Z"
+    },
+    {
+      "id": "90",
+      "title": "ad iusto omnis odit dolor voluptatibus",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387922+00:00Z"
+    },
+    {
+      "id": "91",
+      "title": "aut amet sed",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387927+00:00Z"
+    },
+    {
+      "id": "92",
+      "title": "ratione ex tenetur perferendis",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387932+00:00Z"
+    },
+    {
+      "id": "93",
+      "title": "beatae soluta recusandae",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387938+00:00Z"
+    },
+    {
+      "id": "94",
+      "title": "qui qui voluptates illo iste minima",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387944+00:00Z"
+    },
+    {
+      "id": "95",
+      "title": "id minus libero illum nam ad officiis",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387950+00:00Z"
+    },
+    {
+      "id": "96",
+      "title": "quaerat velit veniam amet cupiditate aut numquam ut sequi",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387955+00:00Z"
+    },
+    {
+      "id": "97",
+      "title": "quas fugiat ut perspiciatis vero provident",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387960+00:00Z"
+    },
+    {
+      "id": "98",
+      "title": "laboriosam dolor voluptates",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387966+00:00Z"
+    },
+    {
+      "id": "99",
+      "title": "temporibus sit alias delectus eligendi possimus magni",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387971+00:00Z"
+    },
+    {
+      "id": "100",
+      "title": "at nam consequatur ea labore ea harum",
+      "source": "jsonplaceholder",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.387990+00:00Z"
+    },
+    {
+      "id": "181",
+      "title": "Marni Red & Black Suit",
+      "source": "dummyjson",
+      "price": 179.99,
+      "category": "womens-dresses",
+      "processed_at": "2025-07-22T23:27:32.389248+00:00Z"
+    },
+    {
+      "id": "182",
+      "title": "Green Crystal Earring",
+      "source": "dummyjson",
+      "price": 29.99,
+      "category": "womens-jewellery",
+      "processed_at": "2025-07-22T23:27:32.389279+00:00Z"
+    },
+    {
+      "id": "183",
+      "title": "Green Oval Earring",
+      "source": "dummyjson",
+      "price": 24.99,
+      "category": "womens-jewellery",
+      "processed_at": "2025-07-22T23:27:32.389300+00:00Z"
+    },
+    {
+      "id": "184",
+      "title": "Tropical Earring",
+      "source": "dummyjson",
+      "price": 19.99,
+      "category": "womens-jewellery",
+      "processed_at": "2025-07-22T23:27:32.389307+00:00Z"
+    },
+    {
+      "id": "185",
+      "title": "Black & Brown Slipper",
+      "source": "dummyjson",
+      "price": 19.99,
+      "category": "womens-shoes",
+      "processed_at": "2025-07-22T23:27:32.389313+00:00Z"
+    },
+    {
+      "id": "186",
+      "title": "Calvin Klein Heel Shoes",
+      "source": "dummyjson",
+      "price": 79.99,
+      "category": "womens-shoes",
+      "processed_at": "2025-07-22T23:27:32.389318+00:00Z"
+    },
+    {
+      "id": "187",
+      "title": "Golden Shoes Woman",
+      "source": "dummyjson",
+      "price": 49.99,
+      "category": "womens-shoes",
+      "processed_at": "2025-07-22T23:27:32.389324+00:00Z"
+    },
+    {
+      "id": "188",
+      "title": "Pampi Shoes",
+      "source": "dummyjson",
+      "price": 29.99,
+      "category": "womens-shoes",
+      "processed_at": "2025-07-22T23:27:32.389329+00:00Z"
+    },
+    {
+      "id": "189",
+      "title": "Red Shoes",
+      "source": "dummyjson",
+      "price": 34.99,
+      "category": "womens-shoes",
+      "processed_at": "2025-07-22T23:27:32.389334+00:00Z"
+    },
+    {
+      "id": "190",
+      "title": "IWC Ingenieur Automatic Steel",
+      "source": "dummyjson",
+      "price": 4999.99,
+      "category": "womens-watches",
+      "processed_at": "2025-07-22T23:27:32.389340+00:00Z"
+    },
+    {
+      "id": "191",
+      "title": "Rolex Cellini Moonphase",
+      "source": "dummyjson",
+      "price": 15999.99,
+      "category": "womens-watches",
+      "processed_at": "2025-07-22T23:27:32.389345+00:00Z"
+    },
+    {
+      "id": "192",
+      "title": "Rolex Datejust Women",
+      "source": "dummyjson",
+      "price": 10999.99,
+      "category": "womens-watches",
+      "processed_at": "2025-07-22T23:27:32.389351+00:00Z"
+    },
+    {
+      "id": "193",
+      "title": "Watch Gold for Women",
+      "source": "dummyjson",
+      "price": 799.99,
+      "category": "womens-watches",
+      "processed_at": "2025-07-22T23:27:32.389356+00:00Z"
+    },
+    {
+      "id": "194",
+      "title": "Women's Wrist Watch",
+      "source": "dummyjson",
+      "price": 129.99,
+      "category": "womens-watches",
+      "processed_at": "2025-07-22T23:27:32.389361+00:00Z"
+    },
+    {
+      "id": "121",
+      "title": "iPhone 5s",
+      "source": "dummyjson",
+      "price": 199.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.389928+00:00Z"
+    },
+    {
+      "id": "122",
+      "title": "iPhone 6",
+      "source": "dummyjson",
+      "price": 299.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.389954+00:00Z"
+    },
+    {
+      "id": "123",
+      "title": "iPhone 13 Pro",
+      "source": "dummyjson",
+      "price": 1099.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.389962+00:00Z"
+    },
+    {
+      "id": "124",
+      "title": "iPhone X",
+      "source": "dummyjson",
+      "price": 899.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.389968+00:00Z"
+    },
+    {
+      "id": "125",
+      "title": "Oppo A57",
+      "source": "dummyjson",
+      "price": 249.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.389974+00:00Z"
+    },
+    {
+      "id": "126",
+      "title": "Oppo F19 Pro Plus",
+      "source": "dummyjson",
+      "price": 399.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.389981+00:00Z"
+    },
+    {
+      "id": "127",
+      "title": "Oppo K1",
+      "source": "dummyjson",
+      "price": 299.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.389987+00:00Z"
+    },
+    {
+      "id": "128",
+      "title": "Realme C35",
+      "source": "dummyjson",
+      "price": 149.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.389993+00:00Z"
+    },
+    {
+      "id": "129",
+      "title": "Realme X",
+      "source": "dummyjson",
+      "price": 299.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.389998+00:00Z"
+    },
+    {
+      "id": "130",
+      "title": "Realme XT",
+      "source": "dummyjson",
+      "price": 349.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.390004+00:00Z"
+    },
+    {
+      "id": "131",
+      "title": "Samsung Galaxy S7",
+      "source": "dummyjson",
+      "price": 299.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.390009+00:00Z"
+    },
+    {
+      "id": "132",
+      "title": "Samsung Galaxy S8",
+      "source": "dummyjson",
+      "price": 499.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.390014+00:00Z"
+    },
+    {
+      "id": "133",
+      "title": "Samsung Galaxy S10",
+      "source": "dummyjson",
+      "price": 699.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.390020+00:00Z"
+    },
+    {
+      "id": "134",
+      "title": "Vivo S1",
+      "source": "dummyjson",
+      "price": 249.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.390026+00:00Z"
+    },
+    {
+      "id": "135",
+      "title": "Vivo V9",
+      "source": "dummyjson",
+      "price": 299.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.390031+00:00Z"
+    },
+    {
+      "id": "136",
+      "title": "Vivo X21",
+      "source": "dummyjson",
+      "price": 499.99,
+      "category": "smartphones",
+      "processed_at": "2025-07-22T23:27:32.390037+00:00Z"
+    },
+    {
+      "id": "137",
+      "title": "American Football",
+      "source": "dummyjson",
+      "price": 19.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.390042+00:00Z"
+    },
+    {
+      "id": "138",
+      "title": "Baseball Ball",
+      "source": "dummyjson",
+      "price": 8.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.390048+00:00Z"
+    },
+    {
+      "id": "139",
+      "title": "Baseball Glove",
+      "source": "dummyjson",
+      "price": 24.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.390053+00:00Z"
+    },
+    {
+      "id": "140",
+      "title": "Basketball",
+      "source": "dummyjson",
+      "price": 14.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.390063+00:00Z"
+    },
+    {
+      "id": "1",
+      "title": "Essence Mascara Lash Princess",
+      "source": "dummyjson",
+      "price": 9.99,
+      "category": "beauty",
+      "processed_at": "2025-07-22T23:27:32.392558+00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Eyeshadow Palette with Mirror",
+      "source": "dummyjson",
+      "price": 19.99,
+      "category": "beauty",
+      "processed_at": "2025-07-22T23:27:32.392590+00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Powder Canister",
+      "source": "dummyjson",
+      "price": 14.99,
+      "category": "beauty",
+      "processed_at": "2025-07-22T23:27:32.392598+00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Red Lipstick",
+      "source": "dummyjson",
+      "price": 12.99,
+      "category": "beauty",
+      "processed_at": "2025-07-22T23:27:32.392603+00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Red Nail Polish",
+      "source": "dummyjson",
+      "price": 8.99,
+      "category": "beauty",
+      "processed_at": "2025-07-22T23:27:32.392609+00:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Calvin Klein CK One",
+      "source": "dummyjson",
+      "price": 49.99,
+      "category": "fragrances",
+      "processed_at": "2025-07-22T23:27:32.392614+00:00Z"
+    },
+    {
+      "id": "7",
+      "title": "Chanel Coco Noir Eau De",
+      "source": "dummyjson",
+      "price": 129.99,
+      "category": "fragrances",
+      "processed_at": "2025-07-22T23:27:32.392619+00:00Z"
+    },
+    {
+      "id": "8",
+      "title": "Dior J'adore",
+      "source": "dummyjson",
+      "price": 89.99,
+      "category": "fragrances",
+      "processed_at": "2025-07-22T23:27:32.392625+00:00Z"
+    },
+    {
+      "id": "9",
+      "title": "Dolce Shine Eau de",
+      "source": "dummyjson",
+      "price": 69.99,
+      "category": "fragrances",
+      "processed_at": "2025-07-22T23:27:32.392630+00:00Z"
+    },
+    {
+      "id": "10",
+      "title": "Gucci Bloom Eau de",
+      "source": "dummyjson",
+      "price": 79.99,
+      "category": "fragrances",
+      "processed_at": "2025-07-22T23:27:32.392636+00:00Z"
+    },
+    {
+      "id": "11",
+      "title": "Annibale Colombo Bed",
+      "source": "dummyjson",
+      "price": 1899.99,
+      "category": "furniture",
+      "processed_at": "2025-07-22T23:27:32.392641+00:00Z"
+    },
+    {
+      "id": "12",
+      "title": "Annibale Colombo Sofa",
+      "source": "dummyjson",
+      "price": 2499.99,
+      "category": "furniture",
+      "processed_at": "2025-07-22T23:27:32.392646+00:00Z"
+    },
+    {
+      "id": "13",
+      "title": "Bedside Table African Cherry",
+      "source": "dummyjson",
+      "price": 299.99,
+      "category": "furniture",
+      "processed_at": "2025-07-22T23:27:32.392651+00:00Z"
+    },
+    {
+      "id": "14",
+      "title": "Knoll Saarinen Executive Conference Chair",
+      "source": "dummyjson",
+      "price": 499.99,
+      "category": "furniture",
+      "processed_at": "2025-07-22T23:27:32.392656+00:00Z"
+    },
+    {
+      "id": "15",
+      "title": "Wooden Bathroom Sink With Mirror",
+      "source": "dummyjson",
+      "price": 799.99,
+      "category": "furniture",
+      "processed_at": "2025-07-22T23:27:32.392662+00:00Z"
+    },
+    {
+      "id": "16",
+      "title": "Apple",
+      "source": "dummyjson",
+      "price": 1.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.392667+00:00Z"
+    },
+    {
+      "id": "17",
+      "title": "Beef Steak",
+      "source": "dummyjson",
+      "price": 12.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.392672+00:00Z"
+    },
+    {
+      "id": "18",
+      "title": "Cat Food",
+      "source": "dummyjson",
+      "price": 8.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.392676+00:00Z"
+    },
+    {
+      "id": "19",
+      "title": "Chicken Meat",
+      "source": "dummyjson",
+      "price": 9.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.392681+00:00Z"
+    },
+    {
+      "id": "20",
+      "title": "Cooking Oil",
+      "source": "dummyjson",
+      "price": 4.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.392686+00:00Z"
+    },
+    {
+      "id": "7",
+      "title": "Michael Lawson",
+      "source": "reqres",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.393534+00:00Z"
+    },
+    {
+      "id": "8",
+      "title": "Lindsay Ferguson",
+      "source": "reqres",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.393553+00:00Z"
+    },
+    {
+      "id": "9",
+      "title": "Tobias Funke",
+      "source": "reqres",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.393560+00:00Z"
+    },
+    {
+      "id": "10",
+      "title": "Byron Fields",
+      "source": "reqres",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.393566+00:00Z"
+    },
+    {
+      "id": "11",
+      "title": "George Edwards",
+      "source": "reqres",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.393571+00:00Z"
+    },
+    {
+      "id": "12",
+      "title": "Rachel Howell",
+      "source": "reqres",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.393576+00:00Z"
+    },
+    {
+      "id": "1",
+      "title": "George Bluth",
+      "source": "reqres",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.393780+00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Janet Weaver",
+      "source": "reqres",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.393808+00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Emma Wong",
+      "source": "reqres",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.393818+00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Eve Holt",
+      "source": "reqres",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.393824+00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Charles Morris",
+      "source": "reqres",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.393829+00:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Tracey Ramos",
+      "source": "reqres",
+      "price": null,
+      "category": "unknown",
+      "processed_at": "2025-07-22T23:27:32.393834+00:00Z"
+    },
+    {
+      "id": "61",
+      "title": "Hand Blender",
+      "source": "dummyjson",
+      "price": 34.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394367+00:00Z"
+    },
+    {
+      "id": "62",
+      "title": "Ice Cube Tray",
+      "source": "dummyjson",
+      "price": 5.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394382+00:00Z"
+    },
+    {
+      "id": "63",
+      "title": "Kitchen Sieve",
+      "source": "dummyjson",
+      "price": 7.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394388+00:00Z"
+    },
+    {
+      "id": "64",
+      "title": "Knife",
+      "source": "dummyjson",
+      "price": 14.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394393+00:00Z"
+    },
+    {
+      "id": "65",
+      "title": "Lunch Box",
+      "source": "dummyjson",
+      "price": 12.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394398+00:00Z"
+    },
+    {
+      "id": "66",
+      "title": "Microwave Oven",
+      "source": "dummyjson",
+      "price": 89.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394403+00:00Z"
+    },
+    {
+      "id": "67",
+      "title": "Mug Tree Stand",
+      "source": "dummyjson",
+      "price": 15.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394409+00:00Z"
+    },
+    {
+      "id": "68",
+      "title": "Pan",
+      "source": "dummyjson",
+      "price": 24.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394414+00:00Z"
+    },
+    {
+      "id": "69",
+      "title": "Plate",
+      "source": "dummyjson",
+      "price": 3.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394420+00:00Z"
+    },
+    {
+      "id": "70",
+      "title": "Red Tongs",
+      "source": "dummyjson",
+      "price": 6.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394424+00:00Z"
+    },
+    {
+      "id": "71",
+      "title": "Silver Pot With Glass Cap",
+      "source": "dummyjson",
+      "price": 39.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394430+00:00Z"
+    },
+    {
+      "id": "72",
+      "title": "Slotted Turner",
+      "source": "dummyjson",
+      "price": 8.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394435+00:00Z"
+    },
+    {
+      "id": "73",
+      "title": "Spice Rack",
+      "source": "dummyjson",
+      "price": 19.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394440+00:00Z"
+    },
+    {
+      "id": "74",
+      "title": "Spoon",
+      "source": "dummyjson",
+      "price": 4.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394444+00:00Z"
+    },
+    {
+      "id": "75",
+      "title": "Tray",
+      "source": "dummyjson",
+      "price": 16.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394449+00:00Z"
+    },
+    {
+      "id": "76",
+      "title": "Wooden Rolling Pin",
+      "source": "dummyjson",
+      "price": 11.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394453+00:00Z"
+    },
+    {
+      "id": "77",
+      "title": "Yellow Peeler",
+      "source": "dummyjson",
+      "price": 5.99,
+      "category": "kitchen-accessories",
+      "processed_at": "2025-07-22T23:27:32.394457+00:00Z"
+    },
+    {
+      "id": "78",
+      "title": "Apple MacBook Pro 14 Inch Space Grey",
+      "source": "dummyjson",
+      "price": 1999.99,
+      "category": "laptops",
+      "processed_at": "2025-07-22T23:27:32.394462+00:00Z"
+    },
+    {
+      "id": "79",
+      "title": "Asus Zenbook Pro Dual Screen Laptop",
+      "source": "dummyjson",
+      "price": 1799.99,
+      "category": "laptops",
+      "processed_at": "2025-07-22T23:27:32.394466+00:00Z"
+    },
+    {
+      "id": "80",
+      "title": "Huawei Matebook X Pro",
+      "source": "dummyjson",
+      "price": 1399.99,
+      "category": "laptops",
+      "processed_at": "2025-07-22T23:27:32.394471+00:00Z"
+    },
+    {
+      "id": "21",
+      "title": "Cucumber",
+      "source": "dummyjson",
+      "price": 1.49,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395013+00:00Z"
+    },
+    {
+      "id": "22",
+      "title": "Dog Food",
+      "source": "dummyjson",
+      "price": 10.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395025+00:00Z"
+    },
+    {
+      "id": "23",
+      "title": "Eggs",
+      "source": "dummyjson",
+      "price": 2.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395031+00:00Z"
+    },
+    {
+      "id": "24",
+      "title": "Fish Steak",
+      "source": "dummyjson",
+      "price": 14.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395036+00:00Z"
+    },
+    {
+      "id": "25",
+      "title": "Green Bell Pepper",
+      "source": "dummyjson",
+      "price": 1.29,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395041+00:00Z"
+    },
+    {
+      "id": "26",
+      "title": "Green Chili Pepper",
+      "source": "dummyjson",
+      "price": 0.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395045+00:00Z"
+    },
+    {
+      "id": "27",
+      "title": "Honey Jar",
+      "source": "dummyjson",
+      "price": 6.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395050+00:00Z"
+    },
+    {
+      "id": "28",
+      "title": "Ice Cream",
+      "source": "dummyjson",
+      "price": 5.49,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395054+00:00Z"
+    },
+    {
+      "id": "29",
+      "title": "Juice",
+      "source": "dummyjson",
+      "price": 3.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395059+00:00Z"
+    },
+    {
+      "id": "30",
+      "title": "Kiwi",
+      "source": "dummyjson",
+      "price": 2.49,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395076+00:00Z"
+    },
+    {
+      "id": "31",
+      "title": "Lemon",
+      "source": "dummyjson",
+      "price": 0.79,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395081+00:00Z"
+    },
+    {
+      "id": "32",
+      "title": "Milk",
+      "source": "dummyjson",
+      "price": 3.49,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395085+00:00Z"
+    },
+    {
+      "id": "33",
+      "title": "Mulberry",
+      "source": "dummyjson",
+      "price": 4.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395090+00:00Z"
+    },
+    {
+      "id": "34",
+      "title": "Nescafe Coffee",
+      "source": "dummyjson",
+      "price": 7.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395095+00:00Z"
+    },
+    {
+      "id": "35",
+      "title": "Potatoes",
+      "source": "dummyjson",
+      "price": 2.29,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395099+00:00Z"
+    },
+    {
+      "id": "36",
+      "title": "Protein Powder",
+      "source": "dummyjson",
+      "price": 19.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395103+00:00Z"
+    },
+    {
+      "id": "37",
+      "title": "Red Onions",
+      "source": "dummyjson",
+      "price": 1.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395108+00:00Z"
+    },
+    {
+      "id": "38",
+      "title": "Rice",
+      "source": "dummyjson",
+      "price": 5.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395113+00:00Z"
+    },
+    {
+      "id": "39",
+      "title": "Soft Drinks",
+      "source": "dummyjson",
+      "price": 1.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395117+00:00Z"
+    },
+    {
+      "id": "40",
+      "title": "Strawberry",
+      "source": "dummyjson",
+      "price": 3.99,
+      "category": "groceries",
+      "processed_at": "2025-07-22T23:27:32.395121+00:00Z"
+    },
+    {
+      "id": "141",
+      "title": "Basketball Rim",
+      "source": "dummyjson",
+      "price": 39.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.395402+00:00Z"
+    },
+    {
+      "id": "142",
+      "title": "Cricket Ball",
+      "source": "dummyjson",
+      "price": 12.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.395412+00:00Z"
+    },
+    {
+      "id": "143",
+      "title": "Cricket Bat",
+      "source": "dummyjson",
+      "price": 29.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.395417+00:00Z"
+    },
+    {
+      "id": "144",
+      "title": "Cricket Helmet",
+      "source": "dummyjson",
+      "price": 44.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.395422+00:00Z"
+    },
+    {
+      "id": "145",
+      "title": "Cricket Wicket",
+      "source": "dummyjson",
+      "price": 29.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.395426+00:00Z"
+    },
+    {
+      "id": "146",
+      "title": "Feather Shuttlecock",
+      "source": "dummyjson",
+      "price": 5.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.395430+00:00Z"
+    },
+    {
+      "id": "147",
+      "title": "Football",
+      "source": "dummyjson",
+      "price": 17.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.395434+00:00Z"
+    },
+    {
+      "id": "148",
+      "title": "Golf Ball",
+      "source": "dummyjson",
+      "price": 9.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.395438+00:00Z"
+    },
+    {
+      "id": "149",
+      "title": "Iron Golf",
+      "source": "dummyjson",
+      "price": 49.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.395442+00:00Z"
+    },
+    {
+      "id": "150",
+      "title": "Metal Baseball Bat",
+      "source": "dummyjson",
+      "price": 29.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.395446+00:00Z"
+    },
+    {
+      "id": "151",
+      "title": "Tennis Ball",
+      "source": "dummyjson",
+      "price": 6.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.395453+00:00Z"
+    },
+    {
+      "id": "152",
+      "title": "Tennis Racket",
+      "source": "dummyjson",
+      "price": 49.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.395457+00:00Z"
+    },
+    {
+      "id": "153",
+      "title": "Volleyball",
+      "source": "dummyjson",
+      "price": 11.99,
+      "category": "sports-accessories",
+      "processed_at": "2025-07-22T23:27:32.395461+00:00Z"
+    },
+    {
+      "id": "154",
+      "title": "Black Sun Glasses",
+      "source": "dummyjson",
+      "price": 29.99,
+      "category": "sunglasses",
+      "processed_at": "2025-07-22T23:27:32.395465+00:00Z"
+    },
+    {
+      "id": "155",
+      "title": "Classic Sun Glasses",
+      "source": "dummyjson",
+      "price": 24.99,
+      "category": "sunglasses",
+      "processed_at": "2025-07-22T23:27:32.395469+00:00Z"
+    },
+    {
+      "id": "156",
+      "title": "Green and Black Glasses",
+      "source": "dummyjson",
+      "price": 34.99,
+      "category": "sunglasses",
+      "processed_at": "2025-07-22T23:27:32.395473+00:00Z"
+    },
+    {
+      "id": "157",
+      "title": "Party Glasses",
+      "source": "dummyjson",
+      "price": 19.99,
+      "category": "sunglasses",
+      "processed_at": "2025-07-22T23:27:32.395483+00:00Z"
+    },
+    {
+      "id": "158",
+      "title": "Sunglasses",
+      "source": "dummyjson",
+      "price": 22.99,
+      "category": "sunglasses",
+      "processed_at": "2025-07-22T23:27:32.395488+00:00Z"
+    },
+    {
+      "id": "159",
+      "title": "iPad Mini 2021 Starlight",
+      "source": "dummyjson",
+      "price": 499.99,
+      "category": "tablets",
+      "processed_at": "2025-07-22T23:27:32.395492+00:00Z"
+    },
+    {
+      "id": "160",
+      "title": "Samsung Galaxy Tab S8 Plus Grey",
+      "source": "dummyjson",
+      "price": 599.99,
+      "category": "tablets",
+      "processed_at": "2025-07-22T23:27:32.395496+00:00Z"
+    },
+    {
+      "id": "81",
+      "title": "Lenovo Yoga 920",
+      "source": "dummyjson",
+      "price": 1099.99,
+      "category": "laptops",
+      "processed_at": "2025-07-22T23:27:32.395774+00:00Z"
+    },
+    {
+      "id": "82",
+      "title": "New DELL XPS 13 9300 Laptop",
+      "source": "dummyjson",
+      "price": 1499.99,
+      "category": "laptops",
+      "processed_at": "2025-07-22T23:27:32.395782+00:00Z"
+    },
+    {
+      "id": "83",
+      "title": "Blue & Black Check Shirt",
+      "source": "dummyjson",
+      "price": 29.99,
+      "category": "mens-shirts",
+      "processed_at": "2025-07-22T23:27:32.395787+00:00Z"
+    },
+    {
+      "id": "84",
+      "title": "Gigabyte Aorus Men Tshirt",
+      "source": "dummyjson",
+      "price": 24.99,
+      "category": "mens-shirts",
+      "processed_at": "2025-07-22T23:27:32.395791+00:00Z"
+    },
+    {
+      "id": "85",
+      "title": "Man Plaid Shirt",
+      "source": "dummyjson",
+      "price": 34.99,
+      "category": "mens-shirts",
+      "processed_at": "2025-07-22T23:27:32.395795+00:00Z"
+    },
+    {
+      "id": "86",
+      "title": "Man Short Sleeve Shirt",
+      "source": "dummyjson",
+      "price": 19.99,
+      "category": "mens-shirts",
+      "processed_at": "2025-07-22T23:27:32.395799+00:00Z"
+    },
+    {
+      "id": "87",
+      "title": "Men Check Shirt",
+      "source": "dummyjson",
+      "price": 27.99,
+      "category": "mens-shirts",
+      "processed_at": "2025-07-22T23:27:32.395804+00:00Z"
+    },
+    {
+      "id": "88",
+      "title": "Nike Air Jordan 1 Red And Black",
+      "source": "dummyjson",
+      "price": 149.99,
+      "category": "mens-shoes",
+      "processed_at": "2025-07-22T23:27:32.395808+00:00Z"
+    },
+    {
+      "id": "89",
+      "title": "Nike Baseball Cleats",
+      "source": "dummyjson",
+      "price": 79.99,
+      "category": "mens-shoes",
+      "processed_at": "2025-07-22T23:27:32.395819+00:00Z"
+    },
+    {
+      "id": "90",
+      "title": "Puma Future Rider Trainers",
+      "source": "dummyjson",
+      "price": 89.99,
+      "category": "mens-shoes",
+      "processed_at": "2025-07-22T23:27:32.395829+00:00Z"
+    },
+    {
+      "id": "91",
+      "title": "Sports Sneakers Off White & Red",
+      "source": "dummyjson",
+      "price": 119.99,
+      "category": "mens-shoes",
+      "processed_at": "2025-07-22T23:27:32.395833+00:00Z"
+    },
+    {
+      "id": "92",
+      "title": "Sports Sneakers Off White Red",
+      "source": "dummyjson",
+      "price": 109.99,
+      "category": "mens-shoes",
+      "processed_at": "2025-07-22T23:27:32.395838+00:00Z"
+    },
+    {
+      "id": "93",
+      "title": "Brown Leather Belt Watch",
+      "source": "dummyjson",
+      "price": 89.99,
+      "category": "mens-watches",
+      "processed_at": "2025-07-22T23:27:32.395842+00:00Z"
+    },
+    {
+      "id": "94",
+      "title": "Longines Master Collection",
+      "source": "dummyjson",
+      "price": 1499.99,
+      "category": "mens-watches",
+      "processed_at": "2025-07-22T23:27:32.395846+00:00Z"
+    },
+    {
+      "id": "95",
+      "title": "Rolex Cellini Date Black Dial",
+      "source": "dummyjson",
+      "price": 8999.99,
+      "category": "mens-watches",
+      "processed_at": "2025-07-22T23:27:32.395850+00:00Z"
+    },
+    {
+      "id": "96",
+      "title": "Rolex Cellini Moonphase",
+      "source": "dummyjson",
+      "price": 12999.99,
+      "category": "mens-watches",
+      "processed_at": "2025-07-22T23:27:32.395854+00:00Z"
+    },
+    {
+      "id": "97",
+      "title": "Rolex Datejust",
+      "source": "dummyjson",
+      "price": 10999.99,
+      "category": "mens-watches",
+      "processed_at": "2025-07-22T23:27:32.395858+00:00Z"
+    },
+    {
+      "id": "98",
+      "title": "Rolex Submariner Watch",
+      "source": "dummyjson",
+      "price": 13999.99,
+      "category": "mens-watches",
+      "processed_at": "2025-07-22T23:27:32.395862+00:00Z"
+    },
+    {
+      "id": "99",
+      "title": "Amazon Echo Plus",
+      "source": "dummyjson",
+      "price": 99.99,
+      "category": "mobile-accessories",
+      "processed_at": "2025-07-22T23:27:32.395866+00:00Z"
+    },
+    {
+      "id": "100",
+      "title": "Apple Airpods",
+      "source": "dummyjson",
+      "price": 129.99,
+      "category": "mobile-accessories",
+      "processed_at": "2025-07-22T23:27:32.395870+00:00Z"
+    },
+    {
+      "id": "101",
+      "title": "Apple AirPods Max Silver",
+      "source": "dummyjson",
+      "price": 549.99,
+      "category": "mobile-accessories",
+      "processed_at": "2025-07-22T23:27:32.396712+00:00Z"
+    },
+    {
+      "id": "102",
+      "title": "Apple Airpower Wireless Charger",
+      "source": "dummyjson",
+      "price": 79.99,
+      "category": "mobile-accessories",
+      "processed_at": "2025-07-22T23:27:32.396727+00:00Z"
+    },
+    {
+      "id": "103",
+      "title": "Apple HomePod Mini Cosmic Grey",
+      "source": "dummyjson",
+      "price": 99.99,
+      "category": "mobile-accessories",
+      "processed_at": "2025-07-22T23:27:32.396732+00:00Z"
+    },
+    {
+      "id": "104",
+      "title": "Apple iPhone Charger",
+      "source": "dummyjson",
+      "price": 19.99,
+      "category": "mobile-accessories",
+      "processed_at": "2025-07-22T23:27:32.396736+00:00Z"
+    },
+    {
+      "id": "105",
+      "title": "Apple MagSafe Battery Pack",
+      "source": "dummyjson",
+      "price": 99.99,
+      "category": "mobile-accessories",
+      "processed_at": "2025-07-22T23:27:32.396741+00:00Z"
+    },
+    {
+      "id": "106",
+      "title": "Apple Watch Series 4 Gold",
+      "source": "dummyjson",
+      "price": 349.99,
+      "category": "mobile-accessories",
+      "processed_at": "2025-07-22T23:27:32.396745+00:00Z"
+    },
+    {
+      "id": "107",
+      "title": "Beats Flex Wireless Earphones",
+      "source": "dummyjson",
+      "price": 49.99,
+      "category": "mobile-accessories",
+      "processed_at": "2025-07-22T23:27:32.396750+00:00Z"
+    },
+    {
+      "id": "108",
+      "title": "iPhone 12 Silicone Case with MagSafe Plum",
+      "source": "dummyjson",
+      "price": 29.99,
+      "category": "mobile-accessories",
+      "processed_at": "2025-07-22T23:27:32.396756+00:00Z"
+    },
+    {
+      "id": "109",
+      "title": "Monopod",
+      "source": "dummyjson",
+      "price": 19.99,
+      "category": "mobile-accessories",
+      "processed_at": "2025-07-22T23:27:32.396760+00:00Z"
+    },
+    {
+      "id": "110",
+      "title": "Selfie Lamp with iPhone",
+      "source": "dummyjson",
+      "price": 14.99,
+      "category": "mobile-accessories",
+      "processed_at": "2025-07-22T23:27:32.396764+00:00Z"
+    },
+    {
+      "id": "111",
+      "title": "Selfie Stick Monopod",
+      "source": "dummyjson",
+      "price": 12.99,
+      "category": "mobile-accessories",
+      "processed_at": "2025-07-22T23:27:32.396769+00:00Z"
+    },
+    {
+      "id": "112",
+      "title": "TV Studio Camera Pedestal",
+      "source": "dummyjson",
+      "price": 499.99,
+      "category": "mobile-accessories",
+      "processed_at": "2025-07-22T23:27:32.396773+00:00Z"
+    },
+    {
+      "id": "113",
+      "title": "Generic Motorcycle",
+      "source": "dummyjson",
+      "price": 3999.99,
+      "category": "motorcycle",
+      "processed_at": "2025-07-22T23:27:32.396777+00:00Z"
+    },
+    {
+      "id": "114",
+      "title": "Kawasaki Z800",
+      "source": "dummyjson",
+      "price": 8999.99,
+      "category": "motorcycle",
+      "processed_at": "2025-07-22T23:27:32.396781+00:00Z"
+    },
+    {
+      "id": "115",
+      "title": "MotoGP CI.H1",
+      "source": "dummyjson",
+      "price": 14999.99,
+      "category": "motorcycle",
+      "processed_at": "2025-07-22T23:27:32.396786+00:00Z"
+    },
+    {
+      "id": "116",
+      "title": "Scooter Motorcycle",
+      "source": "dummyjson",
+      "price": 2999.99,
+      "category": "motorcycle",
+      "processed_at": "2025-07-22T23:27:32.396790+00:00Z"
+    },
+    {
+      "id": "117",
+      "title": "Sportbike Motorcycle",
+      "source": "dummyjson",
+      "price": 7499.99,
+      "category": "motorcycle",
+      "processed_at": "2025-07-22T23:27:32.396794+00:00Z"
+    },
+    {
+      "id": "118",
+      "title": "Attitude Super Leaves Hand Soap",
+      "source": "dummyjson",
+      "price": 8.99,
+      "category": "skin-care",
+      "processed_at": "2025-07-22T23:27:32.396798+00:00Z"
+    },
+    {
+      "id": "119",
+      "title": "Olay Ultra Moisture Shea Butter Body Wash",
+      "source": "dummyjson",
+      "price": 12.99,
+      "category": "skin-care",
+      "processed_at": "2025-07-22T23:27:32.396803+00:00Z"
+    },
+    {
+      "id": "120",
+      "title": "Vaseline Men Body and Face Lotion",
+      "source": "dummyjson",
+      "price": 9.99,
+      "category": "skin-care",
+      "processed_at": "2025-07-22T23:27:32.396807+00:00Z"
+    },
+    {
+      "id": "161",
+      "title": "Samsung Galaxy Tab White",
+      "source": "dummyjson",
+      "price": 349.99,
+      "category": "tablets",
+      "processed_at": "2025-07-22T23:27:32.397094+00:00Z"
+    },
+    {
+      "id": "162",
+      "title": "Blue Frock",
+      "source": "dummyjson",
+      "price": 29.99,
+      "category": "tops",
+      "processed_at": "2025-07-22T23:27:32.397105+00:00Z"
+    },
+    {
+      "id": "163",
+      "title": "Girl Summer Dress",
+      "source": "dummyjson",
+      "price": 19.99,
+      "category": "tops",
+      "processed_at": "2025-07-22T23:27:32.397110+00:00Z"
+    },
+    {
+      "id": "164",
+      "title": "Gray Dress",
+      "source": "dummyjson",
+      "price": 34.99,
+      "category": "tops",
+      "processed_at": "2025-07-22T23:27:32.397205+00:00Z"
+    },
+    {
+      "id": "165",
+      "title": "Short Frock",
+      "source": "dummyjson",
+      "price": 24.99,
+      "category": "tops",
+      "processed_at": "2025-07-22T23:27:32.397211+00:00Z"
+    },
+    {
+      "id": "166",
+      "title": "Tartan Dress",
+      "source": "dummyjson",
+      "price": 39.99,
+      "category": "tops",
+      "processed_at": "2025-07-22T23:27:32.397217+00:00Z"
+    },
+    {
+      "id": "167",
+      "title": "300 Touring",
+      "source": "dummyjson",
+      "price": 28999.99,
+      "category": "vehicle",
+      "processed_at": "2025-07-22T23:27:32.397223+00:00Z"
+    },
+    {
+      "id": "168",
+      "title": "Charger SXT RWD",
+      "source": "dummyjson",
+      "price": 32999.99,
+      "category": "vehicle",
+      "processed_at": "2025-07-22T23:27:32.397229+00:00Z"
+    },
+    {
+      "id": "169",
+      "title": "Dodge Hornet GT Plus",
+      "source": "dummyjson",
+      "price": 24999.99,
+      "category": "vehicle",
+      "processed_at": "2025-07-22T23:27:32.397235+00:00Z"
+    },
+    {
+      "id": "170",
+      "title": "Durango SXT RWD",
+      "source": "dummyjson",
+      "price": 36999.99,
+      "category": "vehicle",
+      "processed_at": "2025-07-22T23:27:32.397240+00:00Z"
+    },
+    {
+      "id": "171",
+      "title": "Pacifica Touring",
+      "source": "dummyjson",
+      "price": 31999.99,
+      "category": "vehicle",
+      "processed_at": "2025-07-22T23:27:32.397249+00:00Z"
+    },
+    {
+      "id": "172",
+      "title": "Blue Women's Handbag",
+      "source": "dummyjson",
+      "price": 49.99,
+      "category": "womens-bags",
+      "processed_at": "2025-07-22T23:27:32.397255+00:00Z"
+    },
+    {
+      "id": "173",
+      "title": "Heshe Women's Leather Bag",
+      "source": "dummyjson",
+      "price": 129.99,
+      "category": "womens-bags",
+      "processed_at": "2025-07-22T23:27:32.397260+00:00Z"
+    },
+    {
+      "id": "174",
+      "title": "Prada Women Bag",
+      "source": "dummyjson",
+      "price": 599.99,
+      "category": "womens-bags",
+      "processed_at": "2025-07-22T23:27:32.397264+00:00Z"
+    },
+    {
+      "id": "175",
+      "title": "White Faux Leather Backpack",
+      "source": "dummyjson",
+      "price": 39.99,
+      "category": "womens-bags",
+      "processed_at": "2025-07-22T23:27:32.397268+00:00Z"
+    },
+    {
+      "id": "176",
+      "title": "Women Handbag Black",
+      "source": "dummyjson",
+      "price": 59.99,
+      "category": "womens-bags",
+      "processed_at": "2025-07-22T23:27:32.397289+00:00Z"
+    },
+    {
+      "id": "177",
+      "title": "Black Women's Gown",
+      "source": "dummyjson",
+      "price": 129.99,
+      "category": "womens-dresses",
+      "processed_at": "2025-07-22T23:27:32.397302+00:00Z"
+    },
+    {
+      "id": "178",
+      "title": "Corset Leather With Skirt",
+      "source": "dummyjson",
+      "price": 89.99,
+      "category": "womens-dresses",
+      "processed_at": "2025-07-22T23:27:32.397319+00:00Z"
+    },
+    {
+      "id": "179",
+      "title": "Corset With Black Skirt",
+      "source": "dummyjson",
+      "price": 79.99,
+      "category": "womens-dresses",
+      "processed_at": "2025-07-22T23:27:32.397325+00:00Z"
+    },
+    {
+      "id": "180",
+      "title": "Dress Pea",
+      "source": "dummyjson",
+      "price": 49.99,
+      "category": "womens-dresses",
+      "processed_at": "2025-07-22T23:27:32.397330+00:00Z"
+    }
+  ],
+  "errors": [],
+  "metrics": {
+    "price_metrics": {
+      "min_price": 0.79,
+      "max_price": 36999.99,
+      "average_price": 1570.1,
+      "valid_price_count": 194
+    },
+    "category_distribution": {
+      "groceries": 27,
+      "home-decoration": 5,
+      "kitchen-accessories": 30,
+      "unknown": 112,
+      "womens-dresses": 5,
+      "womens-jewellery": 3,
+      "womens-shoes": 5,
+      "womens-watches": 5,
+      "smartphones": 16,
+      "sports-accessories": 17,
+      "beauty": 5,
+      "fragrances": 5,
+      "furniture": 5,
+      "laptops": 5,
+      "sunglasses": 5,
+      "tablets": 3,
+      "mens-shirts": 5,
+      "mens-shoes": 5,
+      "mens-watches": 6,
+      "mobile-accessories": 14,
+      "motorcycle": 5,
+      "skin-care": 3,
+      "tops": 5,
+      "vehicle": 5,
+      "womens-bags": 5
+    },
+    "source_request_counts": {
+      "jsonplaceholder": 1,
+      "reqres": 3,
+      "dummyjson": 11,
+      "httpbin": 1
+    }
+  }
+}

@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+httpx
+aiohttp
+aiolimiter
+pytest 
+pytest-asyncio 
+tqdm

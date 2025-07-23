@@ -1,0 +1,23 @@
+[
+    {
+        "url": "https://jsonplaceholder.typicode.com/posts",
+        "name": "jsonplaceholder",
+        "paged": false
+    },
+    {
+        "url": "https://reqres.in/api/users?page={page}",
+        "name": "reqres",
+        "paged": true,
+        "headers": {"x-api-key": "reqres-free-v1"}
+    },
+    {
+        "url": "https://dummyjson.com/products?limit=20&skip={skip}",
+        "name": "dummyjson",
+        "paged": true
+    },
+    {
+        "url": "https://httpbin.org/delay/1",
+        "name": "httpbin",
+        "paged": false
+    }
+]
