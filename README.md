@@ -142,7 +142,7 @@ Ensure you have the following installed:
 To improve user experience, the project incorporates several visual elements:
 - **Progress Bars (TQDM)**: During data fetching and processing, progress bars are displayed to provide real-time feedback on the ongoing tasks. This makes it easier for users to monitor the pipeline's progress, especially when processing large datasets.
 
-    Example commands:
+    Example progress bar(can be seen in the terminal):
     ```bash
     2025-07-22 16:48:32,082 - INFO - Total files to process: 13
     Processing files:  31%|█████▌            | 4/13 [00:00<00:00, 359.32file/s, Progress=38.5% finished]
