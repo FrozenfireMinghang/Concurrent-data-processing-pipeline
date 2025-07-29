@@ -5,9 +5,11 @@ import asyncio
 from unittest.mock import patch, AsyncMock, MagicMock, mock_open
 from httpx import AsyncClient
 from threading import Lock
-from app.main import fetch_with_retry_and_limit, process_file
+
 from aiolimiter import AsyncLimiter
 from app.utils.CircuitBreaker import CircuitBreaker
+from app.utils.Processor import process_file
+from app.utils.UrlFetcher import fetch_with_retry_and_limit
 
 
 # Unit tests for important functions in the data processing pipeline

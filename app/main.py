@@ -19,6 +19,8 @@ from aiolimiter import AsyncLimiter
 from functools import partial
 from app.model.models import ErrorLog, ProductItem, Summary, PriceMetrics, Metrics, OutputModel
 from app.utils.CircuitBreaker import CircuitBreaker
+from app.utils.Processor import process_files_to_products
+from app.utils.UrlFetcher import fetch_paginated_to_files
 
 
 # Note: for usage, please go to the end of the file, there is a CLI interface implemented
@@ -29,128 +31,6 @@ from app.utils.CircuitBreaker import CircuitBreaker
 # For detailed debug information, use DEBUG level, for general information, use INFO level
 logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s - %(levelname)s - %(message)s")
-
-# Rate limiters
-endpoint_limiters: Dict[str, AsyncLimiter] = {}
-
-# retry and limit function
-async def fetch_with_retry_and_limit(client, url: str, headers: Optional[Dict[str, str]], 
-                                     limiter: AsyncLimiter, retries: int = 3, circuit_breaker: CircuitBreaker = None):
-    for attempt in range(retries):
-        try:
-            async with limiter:
-                resp = await circuit_breaker.call(lambda: client.get(url, headers=headers))
-                resp.raise_for_status()
-                return resp
-        except Exception as e:
-            if attempt == retries - 1:
-                raise
-            backoff = 2 ** attempt + random.uniform(0, 0.5)
-            await asyncio.sleep(backoff)
-
-# Fetch data from paginated API and save to local files
-async def fetch_paginated_to_files(endpoint_template: str, endpoint_name: str, paged: bool = False, 
-                                   headers: Optional[Dict[str, str]] = None) -> Tuple[List[ErrorLog], int]:
-    errors = []
-    page = 1
-    skip = 0
-    if endpoint_name not in endpoint_limiters:
-        # at most 5 requests per second
-        endpoint_limiters[endpoint_name] = AsyncLimiter(5, 1)
-    limiter = endpoint_limiters[endpoint_name]
-    os.makedirs("temp_data", exist_ok=True)
-
-    # this is for counting the number of requests
-    total_items = 0
-
-    circuit_breaker = CircuitBreaker(failure_threshold=3, recovery_timeout=10)
-    logging.info(f"Starting to fetch data from {endpoint_name}")
-
-    async with httpx.AsyncClient(timeout=10) as client:
-        try:
-            while True:
-                url = endpoint_template.format(page=page, skip=skip)
-                logging.debug(f"Fetching data from {url}")
-                try:
-                    resp = await fetch_with_retry_and_limit(client, url, headers, limiter, circuit_breaker=circuit_breaker)
-                    json_data = resp.json()
-                    # logging.debug(f"Received response from {url} with json_data {json_data}")
-                    if isinstance(json_data, list):
-                        items = json_data
-                    else:
-                        items = json_data.get(
-                            "data") or json_data.get("products") or []
-
-                    total_items += 1
-                    if not isinstance(items, list) or not items:
-                        break
-
-                    with open(f"temp_data/{endpoint_name}_{page}_{uuid.uuid4()}.json", "w", encoding="utf-8") as f:
-                        json.dump(items, f)
-
-                    if not paged:
-                        break
-                    page += 1
-                    skip += 20
-                except Exception as e:
-                    error_message = f"Error fetching data from {url}: {e}"
-                    logging.error(error_message)
-                    errors.append(ErrorLog(endpoint=url, error=error_message, timestamp=datetime.now(
-                        timezone.utc).isoformat() + "Z"))
-                    break
-        except Exception as e:
-            errors.append(ErrorLog(endpoint=endpoint_name, error=f"General: {e}", timestamp=datetime.now(
-                timezone.utc).isoformat() + "Z"))
-    return errors, total_items
-
-# Process a single file and extract product items
-def process_file(filepath: str, products: List[ProductItem], lock: Lock, file_index: int, total_files: int, pbar: tqdm):
-    logging.debug(
-        f"Started processing file {file_index + 1}/{total_files}: {filepath}")
-    with open(filepath, "r") as f:
-        raw_items = json.load(f)
-        local_products = []
-        source = os.path.basename(filepath).split("_")[0]
-        for data in raw_items:
-            local_products.append(ProductItem(
-                id=str(data.get("id")),
-                title=data.get("title") or data.get(
-                    "name") or f"{data.get('first_name', '')} {data.get('last_name', '')}",
-                source=source,
-                price=data.get("price"),
-                category=data.get("category", "unknown"),
-                processed_at=datetime.now(timezone.utc).isoformat() + "Z"
-            ))
-    with lock:
-        products.extend(local_products)
-    logging.debug(
-        f"Successfully added {len(local_products)} products to the list.")
-    os.remove(filepath)
-    logging.debug(f"File {filepath} has been removed after processing.")
-
-    # update progress bar
-    pbar.update(1)
-    pbar.set_postfix(
-        {"Progress": f"{(file_index + 1) / total_files * 100:.1f}% finished"})
-
-
-def process_files_to_products(max_workers=8) -> List[ProductItem]:
-    products = []
-    lock = Lock()
-    filepaths = [os.path.join("temp_data", f) for f in os.listdir("temp_data")]
-
-    total_files = len(filepaths)
-    logging.info(f"Total files to process: {total_files}")
-
-    # use ThreadPoolExecutor to process files concurrently
-    with ThreadPoolExecutor(max_workers=max_workers) as executor:
-        # for better user experience, use tqdm to show progress
-        with tqdm(total=total_files, desc="Processing files", unit="file", ncols=100) as pbar:
-            for file_index, filepath in enumerate(filepaths):
-                executor.submit(partial(process_file, filepath=filepath, products=products, lock=lock,
-                                        file_index=file_index, total_files=total_files, pbar=pbar))
-
-    return products
 
 # ---------- FastAPI ----------
 # example usage (in the Concurrent-data-processing-pipeline folder):
