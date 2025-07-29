@@ -4,10 +4,10 @@ import httpx
 import os
 import json
 import random
-import time
 import logging
 import sys
 import uuid
+from typing import List, Optional, Dict, Tuple
 from datetime import datetime, timezone
 from typing import List, Optional, Dict, Tuple
 from tqdm import tqdm
@@ -15,9 +15,11 @@ from threading import Lock
 from concurrent.futures import ThreadPoolExecutor
 from collections import defaultdict
 from fastapi import FastAPI
-from pydantic import BaseModel, Field
 from aiolimiter import AsyncLimiter
 from functools import partial
+from app.model.models import ErrorLog, ProductItem, Summary, PriceMetrics, Metrics, OutputModel
+from app.utils.CircuitBreaker import CircuitBreaker
+
 
 # Note: for usage, please go to the end of the file, there is a CLI interface implemented
 # two options to run the project:
@@ -27,89 +29,6 @@ from functools import partial
 # For detailed debug information, use DEBUG level, for general information, use INFO level
 logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s - %(levelname)s - %(message)s")
-
-# pydantic model: data models for the output
-class RawData(BaseModel):
-    endpoint: str
-    payload: dict
-
-
-class ProductItem(BaseModel):
-    id: str
-    title: str
-    source: str
-    price: Optional[float] = None
-    category: str
-    processed_at: str
-
-
-class ErrorLog(BaseModel):
-    endpoint: str
-    error: str
-    timestamp: str
-
-
-class Summary(BaseModel):
-    total_products: int
-    processing_time_seconds: float
-    success_rate: float
-    sources: List[str]
-
-
-class PriceMetrics(BaseModel):
-    min_price: Optional[float] = None
-    max_price: Optional[float] = None
-    average_price: Optional[float] = None
-    valid_price_count: int = 0
-
-
-class Metrics(BaseModel):
-    price_metrics: PriceMetrics
-    category_distribution: Dict[str, int] = Field(default_factory=dict)
-    source_request_counts: Dict[str, int] = Field(default_factory=dict)
-
-
-class OutputModel(BaseModel):
-    summary: Summary
-    products: List[ProductItem]
-    errors: List[ErrorLog]
-    metrics: Metrics
-
-
-# CircuitBreaker
-class CircuitBreaker:
-    def __init__(self, failure_threshold=3, recovery_timeout=10):
-        self.failure_threshold = failure_threshold
-        self.failure_count = 0
-        self.state = 'CLOSED'
-        self.recovery_timeout = recovery_timeout
-        self.last_failure_time = None
-
-    def call(self, service_function):
-        if self.state == 'OPEN':
-            if time.time() - self.last_failure_time >= self.recovery_timeout:
-                self.state = 'HALF-OPEN'
-            else:
-                raise Exception("Circuit is OPEN, service is unavailable.")
-
-        try:
-            result = service_function()
-            self._on_success()
-            return result
-        except Exception as e:
-            self._on_failure()
-            raise e
-
-    def _on_success(self):
-        self.failure_count = 0
-        self.state = 'CLOSED'
-
-    def _on_failure(self):
-        self.failure_count += 1
-        if self.failure_count >= self.failure_threshold:
-            self.state = 'OPEN'
-            self.last_failure_time = time.time()
-
 
 # Rate limiters
 endpoint_limiters: Dict[str, AsyncLimiter] = {}
@@ -234,8 +153,8 @@ def process_files_to_products(max_workers=8) -> List[ProductItem]:
     return products
 
 # ---------- FastAPI ----------
-# example usage:
-# uvicorn main:app --reload
+# example usage (in the Concurrent-data-processing-pipeline folder):
+# uvicorn app.main:app --reload
 # then access http://127.0.0.1:8000/docs
 app = FastAPI()
 

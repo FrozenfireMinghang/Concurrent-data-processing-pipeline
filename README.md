@@ -107,7 +107,8 @@ Ensure you have the following installed:
 - **Option 1**: Using FastAPI with Uvicorn
 
     ```bash
-    uvicorn main:app --reload
+    cd Concurrent-data-processing-pipeline
+    uvicorn app.main:app --reload
 * The application will be available at http://127.0.0.1:8000.
 
 - **Option 2**: Using Docker
