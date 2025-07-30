@@ -10,15 +10,9 @@ import uuid
 from typing import List, Optional, Dict, Tuple
 from datetime import datetime, timezone
 from typing import List, Optional, Dict, Tuple
-from tqdm import tqdm
-from threading import Lock
-from concurrent.futures import ThreadPoolExecutor
 from collections import defaultdict
 from fastapi import FastAPI
-from aiolimiter import AsyncLimiter
-from functools import partial
-from app.model.models import ErrorLog, ProductItem, Summary, PriceMetrics, Metrics, OutputModel
-from app.utils.CircuitBreaker import CircuitBreaker
+from app.model.models import ErrorLog, Summary, PriceMetrics, Metrics, OutputModel
 from app.utils.Processor import process_files_to_products
 from app.utils.UrlFetcher import fetch_paginated_to_files
 
