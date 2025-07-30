@@ -34,7 +34,9 @@
     └── .gitignore             # Ignored files (e.g., __pycache__)
 
 ## Brief Architecture Overview
+![system architecture graph](./graph.jpg)
 Asynchronous Data Fetching -> Local Files (as Queue) ->  Synchronous Data Processing
+
 1. **Asynchronous Data Fetching**: Data is fetched asynchronously from multiple endpoints and stored in temporary local files to avoid memory issues.
    
 2. **Local Files (as Queue)**: The fetched data is saved in local files, which act as a queue for the synchronous processing step.
